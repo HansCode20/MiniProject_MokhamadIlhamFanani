@@ -96,67 +96,6 @@ li .nav-link:hover {
   color: #fff;
 }
 
-/* DO */
-#DO {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 250px;
-}
-
-.bi {
-  font-size: 30px;
-}
-
-.col-md-4 {
-  margin-bottom: 30px;
-}
-
-.card {
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  align-items: center;
-}
-
-.card:hover {
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
-.circle {
-  height: 70px;
-  width: 70px;
-  background-color: lightgray;
-  color: black;
-  padding: 12px;
-  font-size: 30px;
-  border-radius: 50%;
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.card:hover .circle {
-  background-color: black;
-  color: darkorange;
-  transition: 0.5s;
-}
-
-.card-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.card-text {
-  font-size: 1rem;
-}
-
-.btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
-}
 /* menu */
 
 .grid-gallery {
