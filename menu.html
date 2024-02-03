@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sinar Bulan</title>
+    <link rel="icon" href="Image/title.png" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      /* Gif Bawah Navbar */
+      #Image-Gif::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("Image 2/Menu\ GIF.gif") center center no-repeat;
+        background-size: cover;
+        filter: brightness(0.4);
+      }
+
+      #Image-Gif .container22 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        z-index: 1;
+      }
+
+      .Text {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      span {
+        color: darkorange;
+      }
+
+      .breadcrumb-item a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .breadcrumb-item a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 768px) {
+        #Image-Gif img {
+          min-height: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-trans">
+      <div class="container" id="Nav">
+        <a class="navbar-brand" href="#"
+          ><img src="Image/title.png" alt="Title" width="50px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Our Services
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Delivery.html">Delivery</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Ala carte.html">Ala Carte</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact Me</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-4"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              style="font-weight: bold"
+            />
+            <button
+              class="btn btn-outline-success"
+              type="submit"
+              style="font-weight: 500"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Page Home -->
+    <main>
+      <div class="container-fluid" id="Image-Gif">
+        <div class="container22">
+          <div class="Text">
+            <h1><span>Me</span>nu</h1>
+          </div>
+          <nav
+            style="
+              --bs-breadcrumb-divider: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'8\' height=\'8\'%3E%3Cpath d=\'M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z\' fill=\'%236c757d\'/%3E%3C/svg%3E');
+              margin: 20px;
+            "
+            aria-label="breadcrumb"
+          >
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li
+                class="breadcrumb-item active"
+                aria-current="page"
+                style="color: #fff"
+              >
+               Menu
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    <!-- Menu -->
+    <div class="container">
+      <div class="Text-content">
+        <h1>Our Menu</h1>
+        <div class="underline mx-auto"></div>
+      </div>
+      <!-- Images Filter Buttons Section -->
+      <div class="row mt-5" id="filter-buttons">
+        <div class="col-12">
+          <button class="btn mb-2 me-1 active" data-filter="all">
+            Show all
+          </button>
+          <button class="btn mb-2 mx-1" data-filter="food">Food</button>
+          <button class="btn mb-2 mx-1" data-filter="drink">drink</button>
+        </div>
+      </div>
+      <!-- Filterable Images / Cards Section -->
+      <div
+        class="row gap-3"
+        style="margin-left: 20px; margin-top: 30px"
+        id="filterable-cards"
+      >
+        <div class="card p-0" data-name="food">
+          <img src="Image/Meatball.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Bakso</h6>
+            <p class="card-text">Rp20.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastBakso"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastBakso"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image/Meatball.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Bakso</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Bakso and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="food">
+          <img src="Image/Chicken Noodle.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Chicken Noodle</h6>
+            <p class="card-text">Rp20.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastChickenNoodle"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastChickenNoodle"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image/Chicken Noodle.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Chicken Noodle</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order chicken noodles and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="food">
+          <img src="Image/Satay.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Satay</h6>
+            <p class="card-text">Rp25.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastSatay"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastSatay"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img src="Image/Satay.jpg" class="rounded me-2" alt="img" />
+                  <strong class="me-auto">+Satay</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Satay and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="food">
+          <img src="Image 2/Perkedel.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Perkedel</h6>
+            <p class="card-text">Rp15.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastPerkedel"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastPerkedel"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image 2/Perkedel.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Perkedel</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Perkedel and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="food">
+          <img src="Image/salad.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Salad</h6>
+            <p class="card-text">Rp15.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastSalad"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastSalad"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img src="Image/salad.jpg" class="rounded me-2" alt="img" />
+                  <strong class="me-auto">+Salad</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Salad and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="food">
+          <img src="Image/Udang kari.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Shrimp Curry</h6>
+            <p class="card-text">Rp15.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastShrimpCurry"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastShrimpCurry"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image/Udang kari.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+ShrimpCurry</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order ShrimpCurry and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="food">
+          <img src="Image 2/burn chicken.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Burn Chicken</h6>
+            <p class="card-text">Rp.30.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastBurnChicken"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastBurnChicken"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image 2/burn chicken.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Burn Chicken</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Burn Chicken and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="food">
+          <img src="Image 2/Fried Rice.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Fried Rice</h6>
+            <p class="card-text">Rp20.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastFriedRice"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastFriedRice"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image 2/Fried Rice.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Fried Rice</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Fried Rice and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="food">
+          <img src="Image 2/Rendang.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Rendang</h6>
+            <p class="card-text">Rp30.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastRendang"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastRendang"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img src="Image/Satay.jpg" class="rounded me-2" alt="img" />
+                  <strong class="me-auto">+Rendang</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Rendang and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="food">
+          <img src="Image 2/Grill Fish.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Grill Fish</h6>
+            <p class="card-text">Rp20.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastGrillFish"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastGrillFish"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img src="Image/Satay.jpg" class="rounded me-2" alt="img" />
+                  <strong class="me-auto">+Grill Fish</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Grill Fish and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="food">
+          <img src="Image 2/Gulai Ayam.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Gulai Chicken</h6>
+            <p class="card-text">Rp25.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastGulaiChicken"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastGulaiChicken"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image 2/Gulai Ayam.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Gulai Chicken</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Gulai Chicken and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="food">
+          <img src="Image 2/Squid Fried.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Squid Fried Rice</h6>
+            <p class="card-text">Rp15.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastSquidFried"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastSquidFried"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image 2/Fried Rice.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Squid Fried Rice</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Squid Fried Rice and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="drink">
+          <img src="Image/Orange Juice.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Orange Juice</h6>
+            <p class="card-text">Rp10.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastOrangeJuice"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastOrangeJuice"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image/Orange Juice.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Orange Juice</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Orange Juice and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="drink">
+          <img src="Image/Apple Juice.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Apple Juice</h6>
+            <p class="card-text">Rp10.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastAppleJuice"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastAppleJuice"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image/Apple Juice.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Apple Juice</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Apple Juice and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="drink">
+          <img src="Image/Lemon Tea.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Lemon Tea</h6>
+            <p class="card-text">Rp10.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastLemonTea"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastLemonTea"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image/Lemon Tea.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Lemon Tea</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Lemon Tea and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="drink">
+          <img src="Image 2/Chocolate Ice.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Chocolate Ice</h6>
+            <p class="card-text">Rp10.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastChocolateIce"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastChocolateIce"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image 2/Chocolate Ice.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Chocolate Ice</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Chocolate Ice and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="drink">
+          <img src="Image 2/Grape Juice.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Grape Juice</h6>
+            <p class="card-text">Rp12.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastGrapeJuice"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastGrapeJuice"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image 2/Grape Juice.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Grape Juice</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Grape Juice and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="drink">
+          <img src="Image 2/Avocado Juice.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Avocado Juice</h6>
+            <p class="card-text">Rp15.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastAvocado"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastAvocado"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image 2/Avocado Juice.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Avocado Juice</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Avocado Juice and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="drink">
+          <img src="Image 2/Chocolate Ice Cream.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Chocolate Ice Cream</h6>
+            <p class="card-text">Rp15.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastIceCream"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastIceCream"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image 2/Chocolate Ice Cream.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Chocolate Ice Cream </strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Chocolate Ice Cream and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0" data-name="drink">
+          <img src="Image 2/Kiwi Juice.jpg" alt="img" />
+          <div class="card-body">
+            <h6 class="card-title">Kiwi Juice</h6>
+            <p class="card-text">Rp10.000</p>
+            <button
+              type="button"
+              class="Button liveToastBtn"
+              data-bs-target="#liveToastKiwi"
+            >
+              Order Now
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToastKiwi"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img
+                    src="Image 2/Kiwi Juice.jpg"
+                    class="rounded me-2"
+                    alt="img"
+                  />
+                  <strong class="me-auto">+Kiwi Juice</strong>
+                  <small>Now</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">
+                  You order Kiwi Juice and check now in your cart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+    <div
+      class="container-fluid"
+      style="background-color: black; margin-top: 100px"
+    >
+      <div class="container" style="background-color: black; padding-top: 70px">
+        <div class="row" id="row-Footer">
+          <div class="col-md-6 col-lg-3" style="color: #fff">
+            <h2
+              style="
+                color: hsl(54, 89%, 82%);
+                font-family: 'Sofia', sans-serif;
+                font-size: 40px;
+              "
+            >
+              Sinar Bulan
+            </h2>
+            <p>
+              Sinar Bulan adalah tempat yang tenteram dan indah, terinspirasi
+              dari pancaran sinar bulan yang mempesona. Kami berusaha
+              menciptakan suasana di mana Anda dapat bersantai, menikmati, dan
+              menciptakan kenangan abadi.
+            </p>
+            <div class="iconn">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" style="color: #fff">
+            <h2 style="color: darkorange">Open-Close</h2>
+            <div class="Open-Clos">
+              <div class="Hari">
+                <p>Senin</p>
+                <p>Selasa</p>
+                <p>Rabu</p>
+                <p>Kamis</p>
+                <p>Jumat</p>
+                <p>Sabtu</p>
+              </div>
+              <div class="jam">
+                <p>09.00-21.00</p>
+                <p>09.00-21.00</p>
+                <p>09.00-21.00</p>
+                <p>09.00-21.00</p>
+                <p>09.00-21.00</p>
+                <p>09.00-21.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" style="color: #fff">
+            <h2 style="color: darkorange">Details</h2>
+            <div class="Textt">
+              <a href=""><p>Menu</p></a>
+              <a href=""><p>Ala Carte</p></a>
+              <a href=""><p>Delivery Order</p> </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" style="color: #fff">
+            <h2 style="color: darkorange">Newsletter</h2>
+            <p>Dapatkan informasi dan promo terbaru dari kami.</p>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Enter email Address"
+                style="text-align: center"
+              />
+              <button class="subscribe-button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-center"
+          id="Footer"
+          style="color: #fff; margin-top: 100px"
+        >
+          ©Copyright 2024 Powered By <span>ILHAM</span><br />Thanks For Unsplash
+          & Freepik
+        </div>
+      </div>
+    </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Scroll Spy
+      window.addEventListener("scroll", function () {
+        if (window.scrollY > 150) {
+          document.querySelector(".navbar-trans").classList.add("none");
+        } else {
+          document.querySelector(".navbar-trans").classList.remove("none");
+        }
+      });
+
+      var myCarousel = new bootstrap.Carousel(
+        document.getElementById("carouselExampleIndicators"),
+        {
+          interval: 500,
+          wrap: true,
+        }
+      );
+    });
+
+    AOS.init();
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Select elemen-elemen yang dibutuhkan
+      const navbarToggler = document.querySelector(".navbar-toggler");
+      const navbarCollapse = document.querySelector("#navbarSupportedContent");
+
+      // Tambahkan event listener untuk tombol hamburger
+      navbarToggler.addEventListener("click", function () {
+        // Toggle class 'show' pada elemen collapse
+        navbarCollapse.classList.toggle("show");
+      });
+
+      // Tambahkan event listener untuk menutup menu saat mengklik di luar menu
+      document.addEventListener("click", function (event) {
+        const isClickInsideNavbar = navbarCollapse.contains(event.target);
+        const isClickOnNavbarToggler = event.target === navbarToggler;
+
+        if (!isClickInsideNavbar && !isClickOnNavbarToggler) {
+          // Tutup menu jika diklik di luar menu atau tidak pada tombol hamburger
+          navbarCollapse.classList.remove("show");
+        }
+      });
+    });
+  </script>
+
+  <script>
+    // Select relevant HTML elements
+    const filterButtons = document.querySelectorAll("#filter-buttons button");
+    const filterableCards = document.querySelectorAll(
+      "#filterable-cards .card"
+    );
+
+    // Function to filter cards based on filter buttons
+    const filterCards = (e) => {
+      document
+        .querySelector("#filter-buttons .active")
+        .classList.remove("active");
+      e.target.classList.add("active");
+
+      filterableCards.forEach((card) => {
+        // show the card if it matches the clicked filter or show all cards if "all" filter is clicked
+        if (
+          card.dataset.name === e.target.dataset.filter ||
+          e.target.dataset.filter === "all"
+        ) {
+          return card.classList.replace("hide", "show");
+        }
+        card.classList.add("hide");
+      });
+    };
+
+    filterButtons.forEach((button) =>
+      button.addEventListener("click", filterCards)
+    );
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toastTriggers = document.querySelectorAll(".liveToastBtn");
+
+      toastTriggers.forEach((trigger) => {
+        trigger.addEventListener("click", function () {
+          const targetToastId = trigger.getAttribute("data-bs-target");
+
+          if (targetToastId) {
+            const targetToast = new bootstrap.Toast(
+              document.querySelector(targetToastId)
+            );
+            targetToast.show();
+          }
+        });
+      });
+    });
+  </script>
+</html>

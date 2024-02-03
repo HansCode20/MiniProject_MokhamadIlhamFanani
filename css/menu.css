@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+
+/* Navbar */
+.container {
+    background: #fff;
+    border-radius: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+li .nav-link:hover {
+  color: darkorange;
+}
+
+
+ /* Gif Bawah Navbar */
+ #Image-Gif {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  }
+  
+  #Image-Gif .container22 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    }
+
+   .Text {
+    max-width: 600px;
+    margin: 0 auto;
+    }
+
+    h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    }
+
+    span {
+    color: darkorange;
+    }
+
+    .breadcrumb-item a {
+    text-decoration: none;
+    color: #fff;
+    }
+
+    .breadcrumb-item a:hover {
+    text-decoration: underline;
+    }
+
+
+    @media (max-width: 768px) {
+    #Image-Gif img {
+        min-height: 200px;
+    }
+}
+
+
+/* menu */
+.card img:hover{
+  transform: scale(1.1);
+}
+
+.Text-content{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.underline {
+    width: 200px;
+    height: 5px;
+    background-color: darkorange;
+}
+
+#filter-buttons button {
+    border-radius: 3px;
+    background: #fff;
+    border-color: transparent;
+  }
+  #filter-buttons button:hover {
+    background: darkorange;
+    color: #fff;
+  }
+  #filter-buttons button.active {
+    color: #fff;
+    background: darkorange;
+  }
+  #filterable-cards .card {
+    width: 15rem;
+    border: 2px solid transparent;
+  }
+  #filterable-cards .card.hide {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    #filterable-cards {
+     justify-content: center;
+     margin-right: 40px;
+    }
+  }
+
+.Button {
+    background-color: rgb(130, 174, 239);
+    color: #fff ;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.Button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.toast-container .toast img {
+    width: 30px; 
+    height: 30px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+}
+
+/* Footer */
+.Textt a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#row-Footer {
+    font-size: 15px;
+}
+
+.Open-Clos{
+    display: flex;
+    justify-content: space-around;
+   margin-left: -50px;
+}
+
+.iconn {
+    font-size: 30px;
+}
+
+
+.iconn a {
+    color: #fff;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .subscribe-button {
+    width: 100%;
+    max-width: 307px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: darkorange;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+@media (max-width: 768px) {
+    .subscribe-button {
+        max-width: none; /* Hapus batasan lebar maksimum */
+      }
+
+    .col-md-6 {
+        margin-bottom: 40px;
+    }
+
+    .Hari{
+        margin-left: -20px;
+    }
+  }
+
+#Footer {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#Footer span {
+    font-weight: bold;
+}
+
+/* Style scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkorange;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

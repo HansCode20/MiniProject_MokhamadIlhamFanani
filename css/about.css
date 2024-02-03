@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+
+/* Navbar */
+.container {
+    background: #fff;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+li .nav-link:hover {
+    color: darkorange;
+}
+
+  /* Gif Bawah Navbar */
+  #Image-Gif {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    }
+
+    
+    #Image-Gif .container22 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        z-index: 1;
+        }
+    
+      .Text {
+        max-width: 600px;
+        margin: 0 auto;
+        }
+    
+         h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        }
+    
+        span {
+        color: darkorange;
+        }
+    
+        .breadcrumb-item a {
+        text-decoration: none;
+        color: #fff;
+        }
+    
+        .breadcrumb-item a:hover {
+        text-decoration: underline;
+        }
+    
+    
+        @media (max-width: 768px) {
+        #Image-Gif img {
+            min-height: 200px;
+        }
+    }
+
+
+/* Isi */
+ #tentang-Kami {
+    margin-top: 150px;
+}
+
+#tentang-Kami p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Galeri */
+@media (max-width: 768px) {
+    /* Atur lebar maksimum pada container ketika lebar layar kurang dari atau sama dengan 768px */
+    #Galeri {
+      max-width: 400px; /* Sesuaikan dengan nilai yang Anda inginkan */
+    }
+  }
+  
+
+/* Footer */
+.Textt a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#row-Footer {
+    font-size: 15px;
+}
+
+.Open-Clos{
+    display: flex;
+    justify-content: space-around;
+   margin-left: -50px;
+}
+
+.iconn {
+    font-size: 30px;
+}
+
+
+.iconn a {
+    color: #fff;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .subscribe-button {
+    width: 100%;
+    max-width: 307px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: darkorange;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+@media (max-width: 768px) {
+    .subscribe-button {
+        max-width: none; /* Hapus batasan lebar maksimum */
+      }
+
+    .col-md-6 {
+        margin-bottom: 40px;
+    }
+
+    .Hari{
+        margin-left: -20px;
+    }
+  }
+
+#Footer {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#Footer span {
+    font-weight: bold;
+}
+
+/* Style scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: darkorange;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
